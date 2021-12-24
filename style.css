@@ -1,0 +1,105 @@
+
+body{
+    background: #409CFF;
+}
+
+main{
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, label{
+    width: 50%;
+}
+
+label{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input{
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.submit{
+    width: auto;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.line{
+    padding-top: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.btn{
+    width: auto;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+    height: unset;
+    color: white;
+    background: #34C759;
+    cursor: pointer;
+    border: none;
+}
+
+.copie{
+    width: auto;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+    height: unset;
+    color: white;
+    background: #34C759;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) and (min-width: 350px){
+
+    .form{
+        width: 95%;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    input, label{
+        width: 330px;
+    }
+}
